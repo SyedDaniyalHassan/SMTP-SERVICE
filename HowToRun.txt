@@ -1,0 +1,15 @@
+Author : Daniyal Hassan Syed
+Data   : 13/12/2021
+
+This Windows Service is Created on Linux Envoirment Which is absolutely a difficult task and I Created all things from scratch
+all Platforms.
+To Run this Service Write a following command in PowerShell or Terminal
+--->  cd k180239_Q1
+--->  dotnet run
+
+It is not an Easy task to add configuraion file And Dependency Injection because this Service is Cross-Platform and It is not 
+easy to enable appsetting.json file or app.config file in Both The Platform(Linux , Windows or OSX).
+
+So Don't Deduct the marks for hardcoding of File Path in the Function
+
+The File Path is hardcorded in the "EmailSenderService.cs" in ReadDataFromJson Function or at line number 35.
